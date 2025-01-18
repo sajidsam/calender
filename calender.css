@@ -1,0 +1,20 @@
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+
+}
+.date{
+    display: flex;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.days{
+    display: flex;
+    justify-content: center;
+    gap: 145px;
+}
